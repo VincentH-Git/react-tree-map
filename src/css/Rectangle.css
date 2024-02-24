@@ -1,0 +1,35 @@
+.rectangleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box
+}
+
+.text {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.title {
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.textContainer {
+    width: 95%;
+}
