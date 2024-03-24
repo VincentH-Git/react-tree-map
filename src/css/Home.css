@@ -1,0 +1,74 @@
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.containerPadding {
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textInput {
+    background-color: rgb('242', '242', '242');
+}
+
+.marginBottom50{
+    margin-bottom: 50px;
+
+}
+
+.data {
+    height: 20vh;
+    width: 30vw;
+}
+
+.rowNumber {
+    height: 'auto';
+    width: 30vw;
+}
+
+.rightPartContainer {
+    flex: 1;
+    background-color: black;
+    height: 50vh;
+}
+
+.marginRight50 {
+    margin-right: 50px;
+}
+
+.errorContainer{
+    width: 30vw;
+}
+
+@media screen and (max-width: 768px) {
+    .containerPadding {
+        padding: 50px;
+        display: block;
+    }
+    .data {
+        height: 20vh;
+        width: 100%;
+    }
+
+    .rowNumber {
+        height: 'auto';
+        width: 100%;
+    }
+
+    .marginRight50 {
+        margin-right: 0px;
+    }
+
+    .rightPartContainer {
+        flex: 1;
+        background-color: black;
+        margin-top: 50px;
+        height: 40vh;
+    }
+    .errorContainer{
+        width: "100%";
+    }
+}
